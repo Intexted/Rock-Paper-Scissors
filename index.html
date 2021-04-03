@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1b984447a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
     <title>Rock Paper Scissors</title>
 </head>
+
 <body>
+    <div id="container">
+        <header class="header">
+            <h1>let's play !</h1>
+            <button id="restart" class="restart-btn">Restart Game</button>
+            <div id="score" class="score">
+                <h2>Human : 0</h2>
+                <h2>computer : 0</h2>
+            </div>
+            <h2 class="selection">make your selection</h2>
+        </header>
+        <div class="choices">
+            <i id="rock" class="choice fas fa-hand-rock fa-10x"></i>
+            <i id="paper" class="choice fas fa-hand-paper fa-10x"></i>
+            <i id="scissors" class="choice fas fa-hand-scissors fa-10x"></i>
+        </div>
+        <div id="roundResult"></div>
+
+    </div>
+    <!-- modal -->
+    <div class="modal">
+        <div id="winner" class=" modal-content ">
+            <i class="fas fa-award fa-7x"></i>
+            <h1 class="text-win ">You win,Well Done</h1>
+            <span class="replay">Play again</span>
+        </div>
+        <div id="loser" class="modal-content ">
+            <i class="far fa-grin-beam-sweat fa-7x"></i>
+            <h1 class="text-lose ">You lose,Don't give up</h1>
+            <span class="replay">Try again</span>
+        </div>
+    </div>
     <script src="main.js"></script>
-    
 </body>
+
 </html>
