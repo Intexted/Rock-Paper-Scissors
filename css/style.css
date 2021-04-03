@@ -61,7 +61,6 @@ body {
 .header h1 {
     text-transform: capitalize;
     margin-bottom: 1rem;
-    margin-top: 70px;
 }
 
 .score {
