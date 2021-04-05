@@ -17,7 +17,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background: #fff;
+    background: rgb(50, 205, 184);
     color: #333;
     text-align: center;
     width: 80%;
@@ -176,6 +176,27 @@ body {
 
 @media (max-width: 500px) {
     .choice {
-        font-size: 80px;
+        font-size: 70px;
+    }
+    .score h2 {
+        font-size: 20px;
+    }
+    .modal-content {
+        width: 250px;
+    }
+    .header h1 {
+        font-size: 25px;
+    }
+    #roundResult {
+        margin-top: 20px;
+    }
+    .choices {
+        margin-top: 1.5rem;
+    }
+    .restart-btn {
+        margin: 0 0 15px 0;
+    }
+    .header h1 {
+        margin-bottom: .5rem;
     }
 }
